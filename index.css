@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dongle&display=swap');
+* {
+    margin: none;
+    padding: 0;
+}
+
+.name{
+    font-size: 45px;
+    margin-top: 16px;
+    margin-left: 30px;
+    font-family: 'Concert One', cursive;
+    font-style: italic;
+}
+
+.nav-item{
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-link{
+    color: brown;
+}
+
+.sec1{
+    display: inline-block;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(28, 28, 54);
+}
+
+.left{
+float: left;
+flex-direction: column;
+height: fit-content;
+width: 50%;
+}
+
+.right{
+float: left;
+flex-direction: column;
+height: fit-content;
+/* text-align: right; */
+width: 50%;
+}
+
+.left img {
+    float: left;
+    clear: left;
+}
+
+.right img {
+    float: right;
+    clear: right;
+}
+
+.mid-text{
+    color: white;
+   text-align: center;
+   /* giúp chị đoạn này nhé huhu */
+}
+
+.sec2{
+    padding: 30px;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(101, 101, 148);
+}
+.sec2 img {
+    float: left;
+    width: 400px;
+    height: 600px;
+}
+
+.sec2 p {
+    float: right;
+    text-align: center;
+   padding: 90px;
+}
+
+.sec3 {
+    padding: 30px;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(71, 71, 124);
+}
+.sec3 img {
+    float: right; 
+     width: 400px; 
+    height: 600px;
+}
+
+.sec3 p {
+    float: left;
+    text-align: center;
+   padding: 90px;
+} 
+
+.sec4{
+    padding: 30px;
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(101, 101, 148);
+}
+.sec4 img {
+    float: left;
+    width: 400px;
+    height: 600px;
+}
+
+.sec4 p {
+    float: right;
+    text-align: center;
+   padding: 90px;
+}
+
+.sec5 {
+    padding: 30px;
+    /* display: flex; */
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(71, 71, 124);
+    text-align: center;
+
+}
+
+.caro{
+    display: flex;
+    justify-content: center;
+}
+#carouselExampleIndicators {
+    display: flex;
+    width: 1000px;
+    height: 490px;
+    /* max-width: 600px; */
+}
+
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .carousel-indicators {
+        width: 100px;
+    }
+
+    .head {
+        font-size: 10px;
+    }
+}

@@ -18,7 +18,7 @@
 .navbar.navbar-light  {
     position: fixed;
     top: 0em;
-    height: 15%;
+    height: 4em; /* 15% */
     width: 100%;
 }
 
@@ -32,49 +32,49 @@
     color: brown;
 }
 
-.custom-background{
-    position: fixed;
-    bottom:0px;
+.sec1 {
+    margin-top: 4em;
     display: inline-block;
-    z-index: -1;
-    height: 85%;
+    height: fit-content;
     width: 100%;
+    min-width: 720px;
     background-color: rgb(28, 28, 54);
 }
 
-/*.custom-background img {
-    width: 15%;
-}*/
-
-.custom-background .left{
+.sec1 .left{
     float: left;
     height: 100%;
     width: 40%;
 }
 
-.custom-background .right{
+.sec1 .right{
     float: right;
     height: 100%;
     width: 40%;
 }
 
-.custom-background .left img {
+.sec1 .left img {
     width: inherit;
     float: left;
     clear: left;
 }
 
-.custom-background .right img {
+.sec1 .right img {
     width: inherit;
     float: right;
     clear: right;
 }
 
 .mid-text{
-    
     color: white;
-   text-align: center;
-   /* giúp chị đoạn này nhé huhu */
+    font-size: 4em;
+    text-align: center;
+}
+
+.mid-text span {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
 }
 
 .sec2{
@@ -160,7 +160,7 @@
 }
 
 
-@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+@media only screen and (min-width: 720) and (max-width: 1080) {
     .carousel-indicators {
         width: 100px;
     }
@@ -168,4 +168,5 @@
     .head {
         font-size: 10px;
     }
+
 }

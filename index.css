@@ -81,7 +81,7 @@ html body {
 }
 
 .center{
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     height: 100%;
     margin: auto;
@@ -95,6 +95,7 @@ html body {
 .sec1 {
     margin-top: 4em;
     display: inline-block;
+    height: fit-content;
 }
 
 .sec1 .left{
@@ -118,14 +119,27 @@ html body {
     top: 0px;
     left: 0px;
     height: fit-content;
-    width: 100%;
+    width: auto;
 }
 
-.sec1 .center h4 {
+.sec1 .center #countdown {
+    display: inline-block;
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.sec1 .center #countdown div {
+    display: inline-block;
+    text-align: center;
+    height: 6em;
+    width: 5em;
+    padding: 1em;
+    color: #030303;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 2em;
 }
 
 .footer {

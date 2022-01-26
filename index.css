@@ -110,6 +110,15 @@ html body {
     width: 30%;
 }
 
+.sec1 img:first-child {
+    height: 15%;
+    width: 100%;
+}
+
+.sec1 img:last-child {
+    height: 85%
+}
+
 .sec1 img.background {
     position: absolute;
     top: 4em;

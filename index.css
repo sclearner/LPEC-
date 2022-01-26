@@ -38,12 +38,12 @@
 
 html body {
     color: #b3d884;
-    background-color: #023c3e;
 }
 
 /* Global setting for sections */
 .section {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     height: fit-content;
     width: 100%;
@@ -51,7 +51,8 @@ html body {
 
 .section p {
     text-align: center;
-    padding: 90px;
+    padding: 4em;
+    padding-top: 0em;
 }
 
 .section img {
@@ -94,10 +95,10 @@ html body {
 
 /* Section 1 setting*/
 .sec1 {
-    margin-top: 4em;
+    margin-top: 6em;
     display: inline-block;
     width: 100vw;
-    height: 50vw;
+    height: 40vw;
 }
 
 .sec1 .center {
@@ -110,27 +111,33 @@ html body {
     width: 30%;
 }
 
-.sec1 img:first-child {
+/*.sec1 div img:first-child {
     height: 15%;
     width: 100%;
-}
+}*/
 
 .sec1 img:last-child {
-    height: 85%
+    height: 100%;
+    width: 90%;
 }
 
 .sec1 img.background {
     position: absolute;
-    top: 4em;
-    left: 0px;
+    left: 50%;
+    top: 6em;
+    transform: translate(-50%, 0%);
     height: auto;
-    width: 100%;
+    width: 80%;
+}
+
+.sec1 .center #countdown {
+    color: rgba(256, 256, 256, 0.5);
 }
 
 .sec1 .center #countdown {
     display: inline-block;
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

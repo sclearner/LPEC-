@@ -154,6 +154,15 @@ transition: transform .3s;
     height: 1em;
 }
 
+.sec1 img:first-child {
+    height: 15%;
+    width: 100%;
+}
+
+.sec1 img:last-child {
+    height: 85%
+}
+
 .sec1 img {
     height: auto;
     width: 30%;

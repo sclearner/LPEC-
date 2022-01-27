@@ -38,77 +38,8 @@
 
 html body {
     color: #b3d884;
-    background-color: #023c3e;
+    background-color: #626488;
 }
-
-
-.sec1 .center #countdown {
-    display: inline-block;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* opacity: 0.9; */
-    
-}
-
-.sec1 .center #countdown h1{
-    margin-top: 18px;
-    color: rgb(177, 40, 40);
-    font-weight: 900;
-}
-
-.sec1 .center #countdown div {
-    display: inline-block;
-    text-align: center;
-    height: 9em;
-    width: 8em;
-    padding: auto;
-    color: black;
-    background-color: white;
-    border: none;
-    border-radius: 2em;
-    opacity: 0.9;
-}
-
-
-.sec1 .center #countdown #text{
-   background-color: rgb(207, 205, 205);
-   padding: 5px;
-   font-style: italic;
-}
-
-
-
-
-.left {
-    float: left;
-    height: 100%;
-}
-
-.right {
-    float: right;
-    height: 100%;
-}
-
-.left img {
-    width: inherit;
-    float: left;
-    clear: left;
-}
-
-.right img {
-    width: inherit;
-    float: right;
-    clear: right;
-}
-
-
-
-.background {
-    z-index: -1;
-}
-
 
 /* Global setting for sections */
 .section {
@@ -120,7 +51,6 @@ html body {
 
 .section p {
     text-align: center;
-    padding: 90px;
 }
 
 .section img {
@@ -128,23 +58,41 @@ html body {
     height: 500px;
 }
 
-#link-pic{
-    /* opacity: 0.9;
-    transition: all 0.5s;
-    transform: scale(1.1); */
-transition: transform .3s;
+.left {
+    padding: 30px;
+    float: left;
+    height: 100%;
 }
 
-#link-pic:hover {
-    -ms-transform: scale(0.5); /* IE 9 */
-    -webkit-transform: scale(0.5); /* Safari 3-8 */
-    transform: scale(1.1); 
+.right {
+    padding: 30px;
+    float: right;
+    height: 100%;
+}
+
+.left a {
+    width: 40%;
+    float: left;
+    clear: left;
+}
+
+.right a {
+    width: 40%;
+    float: right;
+    clear: right;
+}
+
+.center {
+    /*position: relative;*/
+    text-align: center;
+    height: 100%;
+    margin: auto;
 }
 
 /* Section 1 setting*/
 .sec1 {
     margin-top: 4em;
-    display: inline-block;
+    display: flex;
     width: 100vw;
     height: 50vw;
 }
@@ -154,13 +102,13 @@ transition: transform .3s;
     height: 1em;
 }
 
-.sec1 img:first-child {
-    height: 15%;
-    width: 100%;
+.sec1 .left, .right {
+    padding: 0px;
 }
 
-.sec1 img:last-child {
-    height: 85%
+.sec1 .right {
+    margin-left: auto;
+    order: 2;
 }
 
 .sec1 img {
@@ -168,14 +116,95 @@ transition: transform .3s;
     width: 30%;
 }
 
-.sec1 img.background {
-    position: absolute;
-    top: 4em;
-    left: 0px;
-    height: auto;
+/*.sec1 div img:first-child {
+    height: 15%;
     width: 100%;
+}*/
+
+.sec1 img:last-child {
+    height: 100%;
+    width: 90%;
 }
 
+.sec1 img.background {
+    position: absolute;
+    left: 50%;
+    top: 6em;
+    transform: translate(-50%, 0%);
+    height: auto;
+    width: 80%;
+}
+
+.sec1 .center #countdown {
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* opacity: 0.9;  */
+}
+
+.sec1 .center #countdown h1 {
+    margin-top: 18px;
+    color: rgb(177, 40, 40);
+    font-weight: 900;
+}
+
+
+.sec1 .center #countdown div {
+    display: inline-block;
+    text-align: center;
+    height: 9em;
+    width: 7em;
+    padding: auto;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 2em;
+    opacity: 0.9;
+}
+
+
+.sec1 .center #countdown #text {
+    background-color: rgb(207, 205, 205);
+    padding: 5px;
+    font-style: italic;
+}
+
+.sec2 {
+    background-color: #3E487F;
+}
+
+.sec3 {
+    background-color: #2BA193;
+}
+
+.sec4 {
+    background-color: #A35784;
+}
+
+.sec5 {
+    background-color: #D7888F;
+}
+
+.background {
+    z-index: -1;
+}
+
+#link-pic {
+    /* opacity: 0.9;
+    transition: all 0.5s;
+    transform: scale(1.1); */
+    transition: transform .3s;
+}
+
+#link-pic:hover {
+    -ms-transform: scale(0.5);
+    /* IE 9 */
+    -webkit-transform: scale(0.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
 
 .caro {
     display: flex;
@@ -190,31 +219,25 @@ transition: transform .3s;
     max-width: 600px;
 }
 
-.left-caro{
+.left-caro {
     padding: 30px;
     /* display: flex; */
     height: fit-content;
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
 
-  /* footer */
-  .bi {
+/* footer */
+.bi {
     vertical-align: -.125em;
     color: #000;
-  }
+}
 
-  .foot{
-      font-size: 25px;
+.foot {
+    font-size: 25px;
     font-weight: bold;
     color: #000;
-  }
-
-
-  
-  
-
-
+}
 
 @media only screen and (min-width: 720) and (max-width: 1080) {
     .carousel-indicators {

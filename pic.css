@@ -15,8 +15,6 @@
 }
 
 .navbar.navbar-light {
-    position: fixed;
-    top: 0em;
     z-index: 2;
     height: 4em;
     /* 15% */

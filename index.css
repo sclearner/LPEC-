@@ -70,11 +70,13 @@ html body {
 }
 
 .left img {
+    width: 40%;
     float: left;
     clear: left;
 }
 
 .right img {
+    width: 40%;
     float: right;
     clear: right;
 }

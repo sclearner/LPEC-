@@ -29,12 +29,7 @@
     background-color: #b3110f;
 }
 
-.navbar-collapse {
-    -ms-flex-align: end;
-}
-
 .nav-item {
-    display: inline-block;
     margin-right: 50px;
     font-size: 25px;
     font-family: 'Work Sans', sans-serif;

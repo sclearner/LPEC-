@@ -65,6 +65,8 @@ html body {
     height: 500px;
 }
 
+a {text-decoration: none;}
+
 .left {
     padding: 30px;
     float: left;

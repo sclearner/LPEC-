@@ -186,6 +186,7 @@ html body {
 .sec2 .right {
     position: relative;
     width: 60%;
+    height: auto;
 }
 
 .sec2 .right p {

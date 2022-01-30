@@ -1,4 +1,4 @@
-
+//Counter
 
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 1, 2022 00:00:00").getTime();

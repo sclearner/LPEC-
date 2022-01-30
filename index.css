@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Livvic:wght@300&family=Pattaya&display=swap');
 
 * {
     margin: none;
@@ -54,6 +55,8 @@ html body {
 
 .section p {
     text-align: center;
+    font-family: 'Livvic', sans-serif;
+    font-size: 120%;
 }
 
 .section img {
@@ -176,20 +179,22 @@ html body {
     font-style: italic;
 }
 
-.sec2 {
+.sec2, .sec6{
     background-color: #3E487F;
 }
 
-.sec3 {
+.sec3, .set7{
     background-color: #2BA193;
+    color: #000;
 }
 
-.sec4 {
+.sec4, .sec8{
     background-color: #A35784;
 }
 
-.sec5 {
+.sec5, .sec9{
     background-color: #D7888F;
+    color: #000;
 }
 
 .background {
@@ -219,9 +224,9 @@ html body {
 
 #carouselExampleIndicators {
     display: flex;
-    width: 1000px;
-    height: 490px;
-    max-width: 600px;
+    width: 400px;
+    height: 600px;
+    max-width: 400px;
 }
 
 .left-caro {
@@ -230,6 +235,22 @@ html body {
     height: fit-content;
     width: 100%;
     text-align: center;
+}
+
+/* Other secs*/
+.title1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+}
+
+.title2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}
+
+.title3 {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 48px;
 }
 
 /* footer */

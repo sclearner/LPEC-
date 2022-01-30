@@ -109,7 +109,7 @@ html body {
     height: 100%;
 }
 
-.sec1 .left, .right {
+.sec1 .left, .sec1 .right {
     padding: 0px;
 }
 
@@ -181,6 +181,17 @@ html body {
 
 .sec2, .sec6{
     background-color: #3E487F;
+}
+
+.sec2 .right {
+    position: relative;
+    width: 60%;
+}
+
+.sec2 .right p {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 
 .sec3, .set7{

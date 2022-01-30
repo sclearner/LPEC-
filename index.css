@@ -197,6 +197,17 @@ html body {
     color: #000;
 }
 
+.sectk {
+    background-color: #b3110f;
+}
+
+.sectk .center {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
 .background {
     z-index: -1;
 }
